@@ -5,7 +5,7 @@ const initialState = {
   cart: [
     {
       pizzaId: 12,
-      name: "Mediterranean",
+      name: "Puma777",
       quantity: 2,
       unitPrice: 16,
       totalPrice: 32,
@@ -16,7 +16,7 @@ const initialState = {
 const cartSlice = createSlice({
   name: "cart",
   initialState,
-  redusers: {
+  reducers: {
     addItem(state, action) {
       state.cart.push(action.payload);
     },
@@ -47,6 +47,6 @@ export const {
   increaseItemQuantity,
   decreaseItemQuantity,
   clearCart,
-} = cartSlice.reducer;
+} = cartSlice.actions;
 
 export default cartSlice.reducer;
