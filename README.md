@@ -9,6 +9,7 @@
 - **Shopping Cart Management**: Users can add, remove, and update quantities of items in their cart.
 - **Order Creation**: Facilitates the process of placing orders through a user-friendly form.
 - **Responsive Design**: Optimized for an excellent user experience across various devices.
+- **Tailwind CSS**: Utilizes Tailwind CSS for styling, enabling rapid UI development with a utility-first approach.
 
 ## Components
 
@@ -37,6 +38,7 @@ The project is organized into the following React components:
 - **React**: For building the user interface and managing component state.
 - **Redux Toolkit**: For global state management, particularly for user data and cart items.
 - **React Router**: For handling navigation and routing between components.
+- **Tailwind CSS**: For styling, enabling a responsive and visually appealing design with utility classes.
 - **CSS**: For styling and ensuring responsive design.
 - **JavaScript (ES6+)**: Core language for application logic and functionality.
 - **Geolocation API**: For obtaining the user's current location.
