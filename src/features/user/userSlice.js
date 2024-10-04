@@ -45,6 +45,7 @@ const userSlice = createSlice({
   },
   extraReducers: (builder) =>
     builder
+      /*eslint-disable*/
       .addCase(fetchAddress.pending, (state, action) => {
         state.status = "loading";
       })

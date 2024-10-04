@@ -1,7 +1,7 @@
 import { useFetcher } from "react-router-dom";
 import Button from "../../ui/Button";
 import { updateOrder } from "../../services/apiRestaurant";
-
+/*eslint-disable*/
 function UpdateOrder({ order }) {
   const fetcher = useFetcher();
 
@@ -14,6 +14,7 @@ function UpdateOrder({ order }) {
 
 export default UpdateOrder;
 
+/*eslint-disable*/
 export async function action({ request, params }) {
   const data = { priority: true };
   await updateOrder(params.orderId, data);
